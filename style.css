@@ -1,0 +1,51 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.item {
+    padding: 10px;
+    font-size: 75px;
+    
+}
+
+
+.item-1 {
+    order: 1;
+    background-color: #c60404;
+    flex-grow: 500;
+    width: 460px;
+
+}
+
+.item-2 {
+    order: 4;
+    background-color: #0478c6;
+    flex-grow: 300;
+
+}
+
+
+.item-3 {
+    order: 3;
+    background-color: #6b04c6;
+    flex-grow: 300;
+}
+
+
+.item-4 {
+    order: 5;
+    background-color: #019421;
+    flex-grow: 300;
+}
+
+
+.item-5 {
+    flex-grow: 500;
+    order: 2;
+    background-color: #b69b05;
+    width: 500px;
+}
