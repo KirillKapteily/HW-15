@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
-    border: 1px solid rgb(0, 0, 0);
+    
+    /* border: 1px solid rgb(0, 0, 0); */
 
 }
 
@@ -15,6 +16,7 @@
 
 .item-1 {
     order: 1;
+    border-top-left-radius: 30px;
     background-color: #c60404;
     flex-grow: 500;
     width: 460px;
@@ -48,4 +50,5 @@
     order: 2;
     background-color: #b69b05;
     width: 500px;
+    border-top-right-radius: 30px;
 }
